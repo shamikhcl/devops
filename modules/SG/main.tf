@@ -1,3 +1,4 @@
+#This is main.tf
 resource "aws_security_group" "public_sg" {
   name        = "public-sg"
   description = "Allow SSH and HTTP for public instance"
