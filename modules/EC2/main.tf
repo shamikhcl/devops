@@ -1,4 +1,4 @@
-#This is main.tf
+#This is main
 resource "aws_instance" "public_instance" {
   ami                    = var.ami_id
   instance_type          = var.instance_type
